@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="265dp"
+        android:layout_height="72dp"
+        android:background="@drawable/firstButton"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="330dp"
+        android:layout_height="105dp"
+        android:background="@drawable/logo"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="45dp"
+        tools:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:background="@drawable/secondbutton"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="351dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="When there is no more place in toilette......the shit will walk the earth!"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
